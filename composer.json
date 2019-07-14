@@ -1,18 +1,12 @@
 {
-    "name": "salvadormata/hello-world",
-    "type": "composer-plugin",
-    "description": "Aprenent a crear paquets a packagist.org.",
-    "keywords": ["composer", "autoload"],
-    "homepage": "https://github.com/neobcn/hello-world",
-    "license": "MIT",
-    "authors": [
+    "repositories": [
         {
-            "name": "Salvador Mata",
-            "email": "smap.develop@gmail.com"
+            "type": "vcs",
+            "url": "git@github.com:neobcn/hello-world.git"
         }
     ],
     "require": {
-        "composer-plugin-api": "^1.0"
+        "salvadormata/hello-world": "dev-master"
     },
     "autoload": {
         "psr-4": {
