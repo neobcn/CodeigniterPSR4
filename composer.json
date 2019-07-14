@@ -6,7 +6,7 @@
         }
     ],
     "require": {
-        "salvadormata/hello-world": "dev-master"
+        "neobcn/hello-world": "dev-master"
     },
     "autoload": {
         "psr-4": {
