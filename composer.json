@@ -7,9 +7,8 @@
             "email": "smap.develop@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
-        "salvadormata/hello-world": "^1.0@dev",
         "php": ">=5.3.0 || ^7.0"
     },
     "suggest": {
