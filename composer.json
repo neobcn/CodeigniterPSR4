@@ -1,4 +1,10 @@
 {
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:neobcn/hello-world.git"
+        }
+    ],
     "require": {
         "php": ">=5.3.0",
         "neobcn/hello-world": "^1.0"
