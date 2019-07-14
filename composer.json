@@ -1,5 +1,9 @@
 {
-    "name": "smapbcn/hello-world",
+    "name": "salvadormata/hello-world",
+    "type": "composer-plugin",
+    "description": "Aprenent a crear paquets a packagist.org.",
+    "keywords": ["composer", "autoload"],
+    "homepage": "https://github.com/neobcn/hello-world",
     "license": "MIT",
     "authors": [
         {
@@ -7,19 +11,12 @@
             "email": "smap.develop@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
     "require": {
-        "php": ">=5.3.0 || ^7.0",
-        "salvadormata/hello-world": "1.0.*"
-    },
-    "suggest": {
-        "ext-openssl": "Enabling the openssl extension allows you to access https URLs for repositories and packages",
-        "ext-zip": "Enabling the zip extension allows you to unzip archives",
-        "ext-zlib": "Allow gzip compression of HTTP requests"
+        "php": ">=5.3.0 || ^7.0"
     },
     "autoload": {
         "psr-4": {
-            "HelloWorld\\": "src/HelloWorld"
+            "HelloWorld\\": "src"
         }
     }
 }
