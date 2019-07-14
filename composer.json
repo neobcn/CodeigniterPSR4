@@ -1,5 +1,6 @@
 {
     "name": "smapbcn/hello-world",
+    "license": "MIT",
     "authors": [
         {
             "name": "Salvador Mata",
@@ -8,6 +9,11 @@
     ],
     "require": {
         "php": ">=5.3.0 || ^7.0"
+    },
+    "suggest": {
+        "ext-openssl": "Enabling the openssl extension allows you to access https URLs for repositories and packages",
+        "ext-zip": "Enabling the zip extension allows you to unzip archives",
+        "ext-zlib": "Allow gzip compression of HTTP requests"
     },
     "autoload": {
         "psr-4": {
