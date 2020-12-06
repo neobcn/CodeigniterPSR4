@@ -1,13 +1,13 @@
 {
-    "name": "neobcn/hello-world",
+    "name": "neobcn/CodeigniterPSR4",
     "description": "CodeIgniter 3 PSR-4 Autoloader for Application",
     "keywords": ["codeIgniter", "autoload", "PSR-4", "autoloader"],
-    "homepage": "https://github.com/neobcn/hello-world",
+    "homepage": "https://github.com/neobcn/CodeigniterPSR4",
     "type": "library",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/neobcn/hello-world/issues",
-        "source": "https://github.com/neobcn/hello-world"
+        "issues": "https://github.com/neobcn/CodeigniterPSR4/issues",
+        "source": "https://github.com/neobcn/CodeigniterPSR4"
     },
     "minimum-stability": "stable",
     "require": {
